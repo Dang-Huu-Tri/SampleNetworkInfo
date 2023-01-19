@@ -10,9 +10,9 @@ import UIKit
 
 public extension GCDeviceModelIdentifier {
     /// This is the identifier of the current device.
-    static var current: GCDeviceModelIdentifier {
-        return GCDeviceModelIdentifier(rawValue: UIDevice.rawIdentifier) ?? .unknown
-    }
+//    static var current: GCDeviceModelIdentifier {
+//        return GCDeviceModelIdentifier(rawValue: UIDevice.rawIdentifier) ?? .unknown
+//    }
     
     var currentModel: GCDeviceModel {
         switch self {

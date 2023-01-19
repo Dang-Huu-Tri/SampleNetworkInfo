@@ -19,22 +19,22 @@ public class CGCarrierInfo {
     }
 }
 
-extension CGCarrierInfo: GCCarrierInfoProtocol {
-    public var carrierNames: String {
-        return carrier.carrierName ?? ""
-    }
-    
-    public var mobileCountryCodeNumber: String {
-        return carrier.mobileCountryCode ?? ""
-    }
-    
-    public var mobileNetworkCodeNumber: String {
-        return carrier.mobileNetworkCode ?? ""
-    }
-    
-    public var isAllowVOIP: Bool {
-        return carrier.allowsVOIP
-    }
-    
-    
-}
+//extension CGCarrierInfo: GCCarrierInfoProtocol {
+//    public var carrierNames: String {
+//        return carrier.carrierName ?? ""
+//    }
+//    
+//    public var mobileCountryCodeNumber: String {
+//        return carrier.mobileCountryCode ?? ""
+//    }
+//    
+//    public var mobileNetworkCodeNumber: String {
+//        return carrier.mobileNetworkCode ?? ""
+//    }
+//    
+//    public var isAllowVOIP: Bool {
+//        return carrier.allowsVOIP
+//    }
+//    
+//    
+//}
